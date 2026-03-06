@@ -1,7 +1,11 @@
-﻿table vw_DichiarazioneKM
+table vw_DichiarazioneKM
+
+	// ============================================
+	// 📊 KPI PRINCIPALI
+	// ============================================
 
 	measure 'KM Totali' =
-			
+			-- Somma KM dichiarati (solo tratte valide INSERITO)
 			CALCULATE(
 			    SUMX(
 			        vw_DichiarazioneKM,
@@ -10,10 +14,11 @@
 			    vw_DichiarazioneKM[STATO] = "INSERITO",
 			    NOT ISBLANK(vw_DichiarazioneKM[KM_PERCORSI])
 			)
-		formatString: 0
+		formatString: #,##0
+		displayFolder: 📊 KPI Principali
 
-	measure 'KM Non Rendicontati' = ```
-			
+	measure 'KM Non Rendicontati' =
+			-- Totale KM di scarto (valore assoluto)
 			SUMX(
 			    FILTER(
 			        vw_DichiarazioneKM,
@@ -21,87 +26,11 @@
 			    ),
 			    ABS(vw_DichiarazioneKM[KM_SCARTO])
 			)
-			
-			```
-		formatString: 0
-
-	measure 'N° Errori Contachilometri' =
-			
-			CALCULATE(
-			    COUNTROWS(vw_DichiarazioneKM),
-			    vw_DichiarazioneKM[KM_SCARTO] < 0
-			)
-		formatString: 0
-
-	measure 'Tratte Aperte' =
-			
-			CALCULATE(
-			    COUNTROWS(vw_DichiarazioneKM),
-			    ISBLANK(vw_DichiarazioneKM[DATA_FINE]),
-			    vw_DichiarazioneKM[STATO] = "INSERITO"
-			)
-		formatString: 0
-
-	measure 'KM Medi per Tratta' =
-			
-			DIVIDE(
-			    [KM Totali],
-			    CALCULATE(
-			        COUNTROWS(vw_DichiarazioneKM),
-			        vw_DichiarazioneKM[STATO] = "INSERITO",
-			        NOT ISBLANK(vw_DichiarazioneKM[KM_PERCORSI])
-			    )
-			)
-
-		annotation PBI_FormatHint = {"isGeneralNumber":true}
-
-	measure 'KM Totali Matrice' =
-			
-			CALCULATE(
-			    SUMX(
-			        FILTER(
-			            vw_DichiarazioneKM,
-			            vw_DichiarazioneKM[STATO] = "INSERITO"
-			            && NOT ISBLANK(vw_DichiarazioneKM[KM_PERCORSI])
-			        ),
-			        vw_DichiarazioneKM[KM_PERCORSI]
-			    )
-			)
-		formatString: 0
-
-	measure 'N° Tratte Matrice' =
-			
-			CALCULATE(
-			    COUNTROWS(vw_DichiarazioneKM),
-			    vw_DichiarazioneKM[STATO] = "INSERITO"
-			)
-		formatString: 0
-
-	measure 'N° Utenti Attivi' = CALCULATE(DISTINCTCOUNT(vw_DichiarazioneKM[ID_USER]), vw_DichiarazioneKM[STATO] = "INSERITO")
-		formatString: 0
-
-	measure '% Scarto' =
-			
-			VAR KMTot = [KM Totali]
-			VAR KMScarto = [KM Non Rendicontati]
-			RETURN
-			IF(
-			    KMTot = 0 || ISBLANK(KMTot),
-			    BLANK(),
-			    DIVIDE(KMScarto, KMTot + KMScarto)
-			)
-		formatString: 0.0%;-0.0%;0.0%
-
-	measure 'Ultima Dichiarazione' =
-			
-			CALCULATE(
-			    MAX(vw_DichiarazioneKM[DATA_INIZIO]),
-			    vw_DichiarazioneKM[STATO] = "INSERITO"
-			)
-		formatString: General Date
+		formatString: #,##0
+		displayFolder: 📊 KPI Principali
 
 	measure 'KM Netti Totali' =
-			
+			-- KM netti totali (dichiarati - scarto)
 			CALCULATE(
 			    SUMX(
 			        FILTER(
@@ -112,37 +41,324 @@
 			        vw_DichiarazioneKM[KM_NETTI]
 			    )
 			)
-		formatString: 0
+		formatString: #,##0
+		displayFolder: 📊 KPI Principali
+
+	measure '% Scarto' =
+			-- Percentuale scarto su totale KM
+			VAR KMTot = [KM Totali]
+			VAR KMScarto = [KM Non Rendicontati]
+			RETURN
+			    IF(
+			        KMTot = 0 || ISBLANK(KMTot),
+			        BLANK(),
+			        DIVIDE(KMScarto, KMTot + KMScarto)
+			    )
+		formatString: 0.0%;-0.0%;0.0%
+		displayFolder: 📊 KPI Principali
+
+	measure 'N° Utenti Attivi' =
+			-- Utenti univoci che hanno dichiarato tratte
+			CALCULATE(
+			    DISTINCTCOUNT(vw_DichiarazioneKM[ID_USER]),
+			    vw_DichiarazioneKM[STATO] = "INSERITO"
+			)
+		formatString: #,##0
+		displayFolder: 📊 KPI Principali
+
+	measure 'N° Tratte Totali' =
+			-- Numero totale tratte inserite
+			CALCULATE(
+			    COUNTROWS(vw_DichiarazioneKM),
+			    vw_DichiarazioneKM[STATO] = "INSERITO"
+			)
+		formatString: #,##0
+		displayFolder: 📊 KPI Principali
+
+	measure 'KM Medi per Tratta' =
+			-- Media KM per tratta valida
+			DIVIDE(
+			    [KM Totali],
+			    [N° Tratte Totali]
+			)
+		formatString: #,##0.0
+		displayFolder: 📊 KPI Principali
+
+	// ============================================
+	// 🚨 ANOMALIE E CONTROLLI
+	// ============================================
+
+	measure '🚨 Veicoli Critici (>20%)' =
+			-- Numero veicoli con scarto >20%
+			VAR Soglia = 0.20
+			VAR TargheCritiche = 
+			    FILTER(
+			        VALUES(vw_DichiarazioneKM[TARGA]),
+			        VAR ScartoTargaCorrente = 
+			            CALCULATE(
+			                [% Scarto],
+			                ALLEXCEPT(vw_DichiarazioneKM, vw_DichiarazioneKM[TARGA])
+			            )
+			        RETURN ScartoTargaCorrente > Soglia
+			    )
+			RETURN
+			    COUNTROWS(TargheCritiche)
+		formatString: #,##0
+		displayFolder: 🚨 Anomalie e Controlli
+
+	measure '⚠️ Utenti da Verificare' =
+			-- Utenti con % scarto >20%
+			VAR Soglia = 0.20
+			VAR UtentiProblematici = 
+			    FILTER(
+			        VALUES(vw_DichiarazioneKM[ID_USER]),
+			        VAR ScartoUtenteCorrente = 
+			            CALCULATE(
+			                [% Scarto],
+			                ALLEXCEPT(vw_DichiarazioneKM, vw_DichiarazioneKM[ID_USER])
+			            )
+			        RETURN ScartoUtenteCorrente > Soglia
+			    )
+			RETURN
+			    COUNTROWS(UtentiProblematici)
+		formatString: #,##0
+		displayFolder: 🚨 Anomalie e Controlli
+
+	measure 'N° Errori Contachilometri' =
+			-- Tratte con KM_SCARTO negativo (errore contachilometri)
+			CALCULATE(
+			    COUNTROWS(vw_DichiarazioneKM),
+			    vw_DichiarazioneKM[KM_SCARTO] < 0
+			)
+		formatString: #,##0
+		displayFolder: 🚨 Anomalie e Controlli
+
+	measure 'Tratte Aperte' =
+			-- Tratte senza DATA_FINE (ancora in corso)
+			CALCULATE(
+			    COUNTROWS(vw_DichiarazioneKM),
+			    ISBLANK(vw_DichiarazioneKM[DATA_FINE]),
+			    vw_DichiarazioneKM[STATO] = "INSERITO"
+			)
+		formatString: #,##0
+		displayFolder: 🚨 Anomalie e Controlli
+
+	measure '% Tratte Complete' =
+			-- % tratte chiuse correttamente (con DATA_FINE)
+			VAR TratteComplete = 
+			    CALCULATE(
+			        COUNTROWS(vw_DichiarazioneKM),
+			        NOT ISBLANK(vw_DichiarazioneKM[DATA_FINE]),
+			        vw_DichiarazioneKM[STATO] = "INSERITO"
+			    )
+			VAR TratteTotali = [N° Tratte Totali]
+			RETURN
+			    DIVIDE(TratteComplete, TratteTotali)
+		formatString: 0.0%
+		displayFolder: 🚨 Anomalie e Controlli
+
+	measure 'Icona Stato Scarto' =
+			-- Icona condizionale per visual
+			VAR ScartoCorrente = [% Scarto]
+			RETURN
+			    SWITCH(
+			        TRUE(),
+			        ScartoCorrente > 0.20, "🔴",
+			        ScartoCorrente > 0.10, "🟡",
+			        ScartoCorrente > 0, "🟢",
+			        "⚪"
+			    )
+		displayFolder: 🚨 Anomalie e Controlli
+
+	// ============================================
+	// 📈 TREND TEMPORALI (Time Intelligence)
+	// ============================================
+
+	measure 'KM Mese Corrente' =
+			-- KM del mese corrente (filtro automatico su DATA_INIZIO)
+			VAR UltimoMeseDisponibile = 
+			    CALCULATE(
+			        MAX(vw_DichiarazioneKM[DATA_INIZIO]),
+			        REMOVEFILTERS(vw_DichiarazioneKM[DATA_INIZIO])
+			    )
+			VAR MeseCorrente = MONTH(UltimoMeseDisponibile)
+			VAR AnnoCorrente = YEAR(UltimoMeseDisponibile)
+			RETURN
+			    CALCULATE(
+			        [KM Totali],
+			        vw_DichiarazioneKM[MESE] = MeseCorrente,
+			        vw_DichiarazioneKM[ANNO] = AnnoCorrente
+			    )
+		formatString: #,##0
+		displayFolder: 📈 Trend Temporali
+
+	measure 'KM Mese Precedente' =
+			-- KM del mese precedente per confronto
+			VAR UltimoMeseDisponibile = 
+			    CALCULATE(
+			        MAX(vw_DichiarazioneKM[DATA_INIZIO]),
+			        REMOVEFILTERS(vw_DichiarazioneKM[DATA_INIZIO])
+			    )
+			VAR MesePrecedente = MONTH(EDATE(UltimoMeseDisponibile, -1))
+			VAR AnnoPrecedente = YEAR(EDATE(UltimoMeseDisponibile, -1))
+			RETURN
+			    CALCULATE(
+			        [KM Totali],
+			        vw_DichiarazioneKM[MESE] = MesePrecedente,
+			        vw_DichiarazioneKM[ANNO] = AnnoPrecedente
+			    )
+		formatString: #,##0
+		displayFolder: 📈 Trend Temporali
+
+	measure 'Δ KM vs Mese Scorso' =
+			-- Variazione assoluta KM mese su mese
+			[KM Mese Corrente] - [KM Mese Precedente]
+		formatString: +#,##0;-#,##0;0
+		displayFolder: 📈 Trend Temporali
+
+	measure 'Δ% KM vs Mese Scorso' =
+			-- Variazione % KM mese su mese
+			DIVIDE(
+			    [Δ KM vs Mese Scorso],
+			    [KM Mese Precedente]
+			)
+		formatString: +0.0%;-0.0%;0.0%
+		displayFolder: 📈 Trend Temporali
+
+	measure 'Utenti Attivi Mese Corrente' =
+			-- Utenti attivi nel mese corrente
+			VAR UltimoMeseDisponibile = 
+			    CALCULATE(
+			        MAX(vw_DichiarazioneKM[DATA_INIZIO]),
+			        REMOVEFILTERS(vw_DichiarazioneKM[DATA_INIZIO])
+			    )
+			VAR MeseCorrente = MONTH(UltimoMeseDisponibile)
+			VAR AnnoCorrente = YEAR(UltimoMeseDisponibile)
+			RETURN
+			    CALCULATE(
+			        [N° Utenti Attivi],
+			        vw_DichiarazioneKM[MESE] = MeseCorrente,
+			        vw_DichiarazioneKM[ANNO] = AnnoCorrente
+			    )
+		formatString: #,##0
+		displayFolder: 📈 Trend Temporali
+
+	measure 'Utenti Attivi Mese Precedente' =
+			-- Utenti attivi mese precedente per confronto
+			VAR UltimoMeseDisponibile = 
+			    CALCULATE(
+			        MAX(vw_DichiarazioneKM[DATA_INIZIO]),
+			        REMOVEFILTERS(vw_DichiarazioneKM[DATA_INIZIO])
+			    )
+			VAR MesePrecedente = MONTH(EDATE(UltimoMeseDisponibile, -1))
+			VAR AnnoPrecedente = YEAR(EDATE(UltimoMeseDisponibile, -1))
+			RETURN
+			    CALCULATE(
+			        [N° Utenti Attivi],
+			        vw_DichiarazioneKM[MESE] = MesePrecedente,
+			        vw_DichiarazioneKM[ANNO] = AnnoPrecedente
+			    )
+		formatString: #,##0
+		displayFolder: 📈 Trend Temporali
+
+	measure 'Δ Utenti Attivi MoM' =
+			-- Variazione utenti attivi mese su mese
+			[Utenti Attivi Mese Corrente] - [Utenti Attivi Mese Precedente]
+		formatString: +#,##0;-#,##0;0
+		displayFolder: 📈 Trend Temporali
+
+	measure 'Ultima Dichiarazione' =
+			-- Data ultima dichiarazione inserita
+			CALCULATE(
+			    MAX(vw_DichiarazioneKM[DATA_INIZIO]),
+			    vw_DichiarazioneKM[STATO] = "INSERITO"
+			)
+		formatString: dd/MM/yyyy
+		displayFolder: 📈 Trend Temporali
+
+	// ============================================
+	// 📋 DETTAGLIO TRATTA (per matrici drill-down)
+	// ============================================
 
 	measure 'Note Tratta' =
+			-- Mostra note solo a livello tratta
 			IF(
-			            ISINSCOPE(vw_DichiarazioneKM[Tratta]),
-			            SELECTEDVALUE(vw_DichiarazioneKM[NOTE], "(note multiple)"),
-			            BLANK()
-			        )
+			    ISINSCOPE(vw_DichiarazioneKM[Tratta]),
+			    SELECTEDVALUE(vw_DichiarazioneKM[NOTE], "(note multiple)"),
+			    BLANK()
+			)
 		displayFolder: 📋 Dettaglio Tratta
 
 	measure 'Data Fine Tratta' =
+			-- Data fine formattata solo a livello tratta
 			IF(
-			            ISINSCOPE(vw_DichiarazioneKM[Tratta]),
-			            FORMAT(
-			                SELECTEDVALUE(vw_DichiarazioneKM[DATA_FINE]),
-			                "dd/MM/yyyy"
-			            ),
-			            BLANK()
-			        )
+			    ISINSCOPE(vw_DichiarazioneKM[Tratta]),
+			    FORMAT(
+			        SELECTEDVALUE(vw_DichiarazioneKM[DATA_FINE]),
+			        "dd/MM/yyyy"
+			    ),
+			    BLANK()
+			)
 		displayFolder: 📋 Dettaglio Tratta
 
-	measure 'Ha Dati' = ```
-			
+	measure 'Durata Tratta (giorni)' =
+			-- Giorni trascorsi tra inizio e fine tratta
+			IF(
+			    ISINSCOPE(vw_DichiarazioneKM[Tratta]),
+			    VAR DataInizio = SELECTEDVALUE(vw_DichiarazioneKM[DATA_INIZIO])
+			    VAR DataFine = SELECTEDVALUE(vw_DichiarazioneKM[DATA_FINE])
+			    RETURN
+			        IF(
+			            NOT ISBLANK(DataFine),
+			            DATEDIFF(DataInizio, DataFine, DAY),
+			            BLANK()
+			        ),
+			    BLANK()
+			)
+		formatString: #,##0
+		displayFolder: 📋 Dettaglio Tratta
+
+	// ============================================
+	// 🔧 MISURE SUPPORTO (per matrici e filtri)
+	// ============================================
+
+	measure 'KM Totali Matrice' =
+			-- Versione SUMX per matrice (più veloce)
+			CALCULATE(
+			    SUMX(
+			        FILTER(
+			            vw_DichiarazioneKM,
+			            vw_DichiarazioneKM[STATO] = "INSERITO"
+			            && NOT ISBLANK(vw_DichiarazioneKM[KM_PERCORSI])
+			        ),
+			        vw_DichiarazioneKM[KM_PERCORSI]
+			    )
+			)
+		formatString: #,##0
+		displayFolder: 🔧 Misure Supporto
+
+	measure 'N° Tratte Matrice' =
+			-- Conteggio tratte per matrice
+			CALCULATE(
+			    COUNTROWS(vw_DichiarazioneKM),
+			    vw_DichiarazioneKM[STATO] = "INSERITO"
+			)
+		formatString: #,##0
+		displayFolder: 🔧 Misure Supporto
+
+	measure 'Ha Dati' =
+			-- Flag per filtro visuale (nasconde righe vuote)
 			IF(
 			    COUNTROWS(vw_DichiarazioneKM) > 0,
 			    1,
 			    BLANK()
 			)
-			
-			```
 		formatString: 0
+		displayFolder: 🔧 Misure Supporto
+
+	// ============================================
+	// COLUMNS
+	// ============================================
 
 	column ID
 		dataType: int64
@@ -357,24 +573,20 @@
 
 		annotation SummarizationSetBy = Automatic
 
-	column NomeCompleto = ```
-			
+	column NomeCompleto =
+			-- Nome completo utente (fallback se manca nome o cognome)
 			IF(
 			    ISBLANK(vw_DichiarazioneKM[Nome]) || ISBLANK(vw_DichiarazioneKM[Cognome]),
 			    COALESCE(vw_DichiarazioneKM[Nome], vw_DichiarazioneKM[Cognome], "Utente sconosciuto"),
 			    vw_DichiarazioneKM[Nome] & " " & vw_DichiarazioneKM[Cognome]
 			)
-			
-			```
 		summarizeBy: none
 
 		annotation SummarizationSetBy = Automatic
 
-	column MeseAnno = ```
-			
+	column MeseAnno =
+			-- Mese formattato (es: Gen 2026)
 			FORMAT(vw_DichiarazioneKM[DATA_INIZIO], "MMM YYYY")
-			
-			```
 		displayFolder: Gerarchia Temporale
 		summarizeBy: none
 		sortByColumn: SortMeseAnno
@@ -383,11 +595,9 @@
 
 		annotation SummarizationSetBy = Automatic
 
-	column SortMeseAnno = ```
-			
+	column SortMeseAnno =
+			-- Ordinamento numerico per MeseAnno
 			vw_DichiarazioneKM[ANNO] * 100 + vw_DichiarazioneKM[MESE]
-			
-			```
 		isHidden
 		formatString: 0
 		displayFolder: Gerarchia Temporale
@@ -413,6 +623,7 @@
 		annotation SummarizationSetBy = Automatic
 
 	column SortGiornoData =
+			-- Ordinamento numerico per GiornoData
 			vw_DichiarazioneKM[ANNO] * 10000
 			        + vw_DichiarazioneKM[MESE] * 100
 			        + DAY(vw_DichiarazioneKM[DATA_INIZIO])
@@ -423,8 +634,8 @@
 
 		annotation SummarizationSetBy = Automatic
 
-	column Tratta = ```
-			
+	column Tratta =
+			-- Descrizione tratta formattata con icone stato
 			VAR PuntoInizio = vw_DichiarazioneKM[PUNTO_INIZIO]
 			VAR PuntoFine   = vw_DichiarazioneKM[PUNTO_FINE]
 			VAR Stato       = vw_DichiarazioneKM[STATO]
@@ -439,8 +650,6 @@
 			            PuntoInizio & " → ❌ annullata senza fine",
 			        PuntoInizio & " → (sconosciuta)"
 			    )
-			
-			```
 		dataType: string
 		displayFolder: Dettaglio Tratta
 		summarizeBy: none
@@ -469,4 +678,3 @@
 				    dbo_vw_DichiarazioneKM
 
 	annotation PBI_ResultType = Table
-
