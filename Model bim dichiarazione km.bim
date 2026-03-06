@@ -12,7 +12,6 @@
     "tables": [
       {
         "name": "vw_DichiarazioneKM",
-        "lineageTag": "d07ce8c1-f73b-4658-8097-dfc972ac2934",
         "columns": [
           {
             "name": "ID",
@@ -20,7 +19,6 @@
             "isHidden": true,
             "sourceColumn": "ID",
             "formatString": "0",
-            "lineageTag": "98e9b39a-de93-472d-a45b-17275121d7c0",
             "summarizeBy": "count",
             "annotations": [
               {
@@ -35,7 +33,6 @@
             "isHidden": true,
             "sourceColumn": "ID_USER",
             "formatString": "0",
-            "lineageTag": "aa470c82-1485-4fdf-a02b-527f29b0235c",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -48,7 +45,6 @@
             "name": "Nome",
             "dataType": "string",
             "sourceColumn": "Nome",
-            "lineageTag": "cc23c577-3244-4f66-8969-eb59c19e06a2",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -61,7 +57,6 @@
             "name": "Cognome",
             "dataType": "string",
             "sourceColumn": "Cognome",
-            "lineageTag": "d56a1f77-6e11-4085-8779-5e85d5c0c334",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -74,7 +69,6 @@
             "name": "Email",
             "dataType": "string",
             "sourceColumn": "Email",
-            "lineageTag": "7956ca0d-c45a-4fe7-bbd4-0b1a7077c5a3",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -88,7 +82,6 @@
             "dataType": "int64",
             "sourceColumn": "CodiceSGA",
             "formatString": "0",
-            "lineageTag": "7f8579f7-dc28-4e89-be0e-7a67cd92244d",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -101,7 +94,6 @@
             "name": "TARGA",
             "dataType": "string",
             "sourceColumn": "TARGA",
-            "lineageTag": "e6330a1e-fa45-4851-817e-6575bff92886",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -115,7 +107,6 @@
             "dataType": "dateTime",
             "sourceColumn": "DATA_INIZIO",
             "formatString": "Short Date",
-            "lineageTag": "79f9d492-63c2-430c-9459-03213b00bb1e",
             "summarizeBy": "none",
             "variations": [
               {
@@ -141,7 +132,6 @@
             "sourceColumn": "DATA_FINE",
             "formatString": "General Date",
             "displayFolder": "Dettaglio Tratta",
-            "lineageTag": "95327c40-2f6e-4d29-b160-390b6189743d",
             "summarizeBy": "none",
             "variations": [
               {
@@ -166,7 +156,6 @@
             "dataType": "string",
             "sourceColumn": "PUNTO_INIZIO",
             "displayFolder": "Dettaglio Tratta",
-            "lineageTag": "f1517a62-14be-4baa-96f3-0c453951a3f3",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -180,7 +169,6 @@
             "dataType": "string",
             "sourceColumn": "PUNTO_FINE",
             "displayFolder": "Dettaglio Tratta",
-            "lineageTag": "12d70a88-4456-452b-b1a5-8d20f3fcdcc4",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -195,7 +183,6 @@
             "sourceColumn": "KM_INIZIO",
             "formatString": "0",
             "displayFolder": "KM",
-            "lineageTag": "b4171a03-6eae-49de-934b-2484eae9830b",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -210,7 +197,6 @@
             "sourceColumn": "KM_FINE",
             "formatString": "0",
             "displayFolder": "KM",
-            "lineageTag": "6325c9af-afcb-4155-aff4-9345a7c52cf7",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -225,7 +211,6 @@
             "sourceColumn": "KM_PERCORSI",
             "formatString": "0",
             "displayFolder": "KM",
-            "lineageTag": "aefaaebd-dcf2-4b63-b11c-dc176b55139d",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -240,7 +225,6 @@
             "sourceColumn": "KM_SCARTO",
             "formatString": "0",
             "displayFolder": "KM",
-            "lineageTag": "47de1515-60d1-4976-b2f3-19ce39cee352",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -255,7 +239,6 @@
             "sourceColumn": "KM_NETTI",
             "formatString": "0",
             "displayFolder": "KM",
-            "lineageTag": "303515d0-573b-4ff9-803e-90083cc6352c",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -269,7 +252,6 @@
             "dataType": "string",
             "sourceColumn": "NOTE",
             "displayFolder": "Dettaglio Tratta",
-            "lineageTag": "3c346682-d140-427c-8bc9-93d185671658",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -282,7 +264,6 @@
             "name": "STATO",
             "dataType": "string",
             "sourceColumn": "STATO",
-            "lineageTag": "ec25b75b-1581-40b3-9e54-82c4f7bc87eb",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -297,7 +278,6 @@
             "sourceColumn": "DATA_INSERT",
             "formatString": "General Date",
             "displayFolder": "Dettaglio Tratta",
-            "lineageTag": "982a64a7-8d7d-4163-bbaa-f264769a4c7a",
             "summarizeBy": "none",
             "variations": [
               {
@@ -322,7 +302,6 @@
             "dataType": "dateTime",
             "sourceColumn": "DATA_UPDATE",
             "formatString": "General Date",
-            "lineageTag": "39afe269-d11f-426b-858c-5f672d2de5ea",
             "summarizeBy": "none",
             "variations": [
               {
@@ -349,7 +328,6 @@
             "sourceColumn": "ANNO",
             "formatString": "0",
             "displayFolder": "Gerarchia Temporale",
-            "lineageTag": "d864e004-8d20-4b6f-87c6-074da0df6315",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -365,7 +343,6 @@
             "sourceColumn": "MESE",
             "formatString": "0",
             "displayFolder": "Gerarchia Temporale",
-            "lineageTag": "cf9e0ea6-6617-4d23-b1a4-1180f950a211",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -380,7 +357,6 @@
             "isHidden": true,
             "sourceColumn": "NOME_MESE",
             "displayFolder": "Gerarchia Temporale",
-            "lineageTag": "208a9e97-564f-4491-b30e-aa6a96d86fb1",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -392,8 +368,6 @@
           {
             "type": "calculated",
             "name": "NomeCompleto",
-            "dataType": "string",
-            "isDataTypeInferred": true,
             "expression": [
               "",
               "IF(",
@@ -403,7 +377,6 @@
               ")",
               ""
             ],
-            "lineageTag": "33b78d76-37d3-4a60-889e-80ee06e146ac",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -415,8 +388,6 @@
           {
             "type": "calculated",
             "name": "MeseAnno",
-            "dataType": "string",
-            "isDataTypeInferred": true,
             "expression": [
               "",
               "FORMAT(vw_DichiarazioneKM[DATA_INIZIO], \"MMM YYYY\")",
@@ -424,7 +395,6 @@
             ],
             "sortByColumn": "SortMeseAnno",
             "displayFolder": "Gerarchia Temporale",
-            "lineageTag": "c54f53ec-96bc-439c-a8ff-57b12e7f2250",
             "summarizeBy": "none",
             "changedProperties": [
               {
@@ -441,8 +411,6 @@
           {
             "type": "calculated",
             "name": "SortMeseAnno",
-            "dataType": "int64",
-            "isDataTypeInferred": true,
             "isHidden": true,
             "expression": [
               "",
@@ -451,7 +419,6 @@
             ],
             "formatString": "0",
             "displayFolder": "Gerarchia Temporale",
-            "lineageTag": "c6461e44-ef80-4c3e-af3f-a9e50267f883",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -468,7 +435,6 @@
             "expression": "DAY(vw_DichiarazioneKM[DATA_INIZIO])",
             "formatString": "0",
             "displayFolder": "Gerarchia Temporale",
-            "lineageTag": "b2b6183f-d39f-45ee-8386-d4e3a5f2cb8a",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -484,7 +450,6 @@
             "expression": "FORMAT(vw_DichiarazioneKM[DATA_INIZIO], \"ddd dd/MM\")",
             "sortByColumn": "SortGiornoData",
             "displayFolder": "Gerarchia Temporale",
-            "lineageTag": "d270b57c-7dfd-47e2-bb44-3dfa80469997",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -504,7 +469,6 @@
               "        + DAY(vw_DichiarazioneKM[DATA_INIZIO])"
             ],
             "displayFolder": "Gerarchia Temporale",
-            "lineageTag": "d36f8d7b-92f3-44c6-a0f4-daed4718a01b",
             "summarizeBy": "sum",
             "annotations": [
               {
@@ -536,7 +500,6 @@
               ""
             ],
             "displayFolder": "Dettaglio Tratta",
-            "lineageTag": "927ee6b7-8499-44e2-ac6f-8a008465de0c",
             "summarizeBy": "none",
             "annotations": [
               {
@@ -576,8 +539,7 @@
               "    NOT ISBLANK(vw_DichiarazioneKM[KM_PERCORSI])",
               ")"
             ],
-            "formatString": "0",
-            "lineageTag": "5591e3a6-9a9a-4c18-8b9a-9c4d70810f51"
+            "formatString": "0"
           },
           {
             "name": "KM Non Rendicontati",
@@ -592,8 +554,7 @@
               ")",
               ""
             ],
-            "formatString": "0",
-            "lineageTag": "d92bb53d-4a84-4d21-996b-2168b78a1a62"
+            "formatString": "0"
           },
           {
             "name": "N° Errori Contachilometri",
@@ -604,8 +565,7 @@
               "    vw_DichiarazioneKM[KM_SCARTO] < 0",
               ")"
             ],
-            "formatString": "0",
-            "lineageTag": "77843382-35e3-470b-b7f4-6c827c9f4a1a"
+            "formatString": "0"
           },
           {
             "name": "Tratte Aperte",
@@ -617,8 +577,7 @@
               "    vw_DichiarazioneKM[STATO] = \"INSERITO\"",
               ")"
             ],
-            "formatString": "0",
-            "lineageTag": "899a2741-168a-4558-b700-bc42cb9be7e6"
+            "formatString": "0"
           },
           {
             "name": "KM Medi per Tratta",
@@ -633,7 +592,6 @@
               "    )",
               ")"
             ],
-            "lineageTag": "55acae83-663f-4606-ae8d-52afb36291d1",
             "annotations": [
               {
                 "name": "PBI_FormatHint",
@@ -656,8 +614,7 @@
               "    )",
               ")"
             ],
-            "formatString": "0",
-            "lineageTag": "19d10919-ba60-44a0-8826-443babcb7f85"
+            "formatString": "0"
           },
           {
             "name": "N° Tratte Matrice",
@@ -668,14 +625,12 @@
               "    vw_DichiarazioneKM[STATO] = \"INSERITO\"",
               ")"
             ],
-            "formatString": "0",
-            "lineageTag": "015144b6-c91e-4963-b67a-c107e8badb3f"
+            "formatString": "0"
           },
           {
             "name": "N° Utenti Attivi",
             "expression": "CALCULATE(DISTINCTCOUNT(vw_DichiarazioneKM[ID_USER]), vw_DichiarazioneKM[STATO] = \"INSERITO\")",
-            "formatString": "0",
-            "lineageTag": "e9a4ca3a-0098-4939-8ec8-b9981785f068"
+            "formatString": "0"
           },
           {
             "name": "% Scarto",
@@ -690,8 +645,7 @@
               "    DIVIDE(KMScarto, KMTot + KMScarto)",
               ")"
             ],
-            "formatString": "0.0%;-0.0%;0.0%",
-            "lineageTag": "b0860b60-e8e9-4fef-88d3-d1b7ed009f0a"
+            "formatString": "0.0%;-0.0%;0.0%"
           },
           {
             "name": "Ultima Dichiarazione",
@@ -702,8 +656,7 @@
               "    vw_DichiarazioneKM[STATO] = \"INSERITO\"",
               ")"
             ],
-            "formatString": "General Date",
-            "lineageTag": "5e10d9ed-e140-4627-9846-4c3b88d65d8f"
+            "formatString": "General Date"
           },
           {
             "name": "KM Netti Totali",
@@ -720,8 +673,7 @@
               "    )",
               ")"
             ],
-            "formatString": "0",
-            "lineageTag": "c58db713-723d-40f3-8987-ecc31ae6309c"
+            "formatString": "0"
           },
           {
             "name": "Note Tratta",
@@ -732,8 +684,7 @@
               "            BLANK()",
               "        )"
             ],
-            "displayFolder": "📋 Dettaglio Tratta",
-            "lineageTag": "5a451cc4-6e1d-4835-b066-264d1a9ec977"
+            "displayFolder": "📋 Dettaglio Tratta"
           },
           {
             "name": "Data Fine Tratta",
@@ -747,8 +698,7 @@
               "            BLANK()",
               "        )"
             ],
-            "displayFolder": "📋 Dettaglio Tratta",
-            "lineageTag": "7874659f-0d80-4dd6-b9ba-64e6a2bc5b92"
+            "displayFolder": "📋 Dettaglio Tratta"
           },
           {
             "name": "Ha Dati",
@@ -761,33 +711,28 @@
               ")",
               ""
             ],
-            "formatString": "0",
-            "lineageTag": "7acc0292-d458-4e12-9f3d-b6b0cc255674"
+            "formatString": "0"
           }
         ],
         "hierarchies": [
           {
             "name": "Gerarchia Data",
             "displayFolder": "Gerarchia Temporale",
-            "lineageTag": "010beb31-bbb8-49ea-b4b3-c699af9bec74",
             "levels": [
               {
                 "name": "Anno",
                 "ordinal": 0,
-                "column": "ANNO",
-                "lineageTag": "a86d29ab-ec16-48bb-9ffd-f186767a8ef5"
+                "column": "ANNO"
               },
               {
                 "name": "Mese",
                 "ordinal": 1,
-                "column": "MeseAnno",
-                "lineageTag": "bb0d3a7c-8b3a-4490-b5a9-25998ac4091a"
+                "column": "MeseAnno"
               },
               {
                 "name": "Giorno",
                 "ordinal": 2,
-                "column": "GiornoData",
-                "lineageTag": "abb462ef-aed5-44a0-af3a-b97710c83b39"
+                "column": "GiornoData"
               }
             ]
           }
@@ -803,7 +748,6 @@
         "name": "DateTableTemplate_f6803ed1-3acd-4226-be7a-730b32590751",
         "isHidden": true,
         "isPrivate": true,
-        "lineageTag": "ac9b8dd0-aa89-4a5f-8ef2-2753570fe7f2",
         "columns": [
           {
             "type": "calculatedTableColumn",
@@ -812,7 +756,6 @@
             "isNameInferred": true,
             "isHidden": true,
             "sourceColumn": "[Date]",
-            "lineageTag": "0b1656ad-d6a1-452c-b503-069baa4a0ed7",
             "dataCategory": "PaddedDateTableDates",
             "summarizeBy": "none",
             "annotations": [
@@ -828,7 +771,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "YEAR([Date])",
-            "lineageTag": "b6e35bdc-ea31-4179-a3f3-4b3b23ad112c",
             "dataCategory": "Years",
             "summarizeBy": "none",
             "annotations": [
@@ -848,7 +790,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "MONTH([Date])",
-            "lineageTag": "ceaba439-aa3e-44f2-9d24-60a5af8878aa",
             "dataCategory": "MonthOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -869,7 +810,6 @@
             "isHidden": true,
             "expression": "FORMAT([Date], \"MMMM\")",
             "sortByColumn": "NumMese",
-            "lineageTag": "f0c17a73-d4ea-4f33-a1af-79ebdcd4594a",
             "dataCategory": "Months",
             "summarizeBy": "none",
             "annotations": [
@@ -889,7 +829,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "INT(([NumMese] + 2) / 3)",
-            "lineageTag": "c1bd2725-8942-4ab4-8843-d0cf370df68a",
             "dataCategory": "QuarterOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -910,7 +849,6 @@
             "isHidden": true,
             "expression": "\"Qtr \" & [NumTrimestre]",
             "sortByColumn": "NumTrimestre",
-            "lineageTag": "edb51c17-f428-4c45-bbcc-9988f5c29f4d",
             "dataCategory": "Quarters",
             "summarizeBy": "none",
             "annotations": [
@@ -930,7 +868,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "DAY([Date])",
-            "lineageTag": "219ff40c-a534-4e68-9f56-88dfc15aec55",
             "dataCategory": "DayOfMonth",
             "summarizeBy": "none",
             "annotations": [
@@ -958,31 +895,26 @@
         "hierarchies": [
           {
             "name": "Gerarchia data",
-            "lineageTag": "fc48e537-33e4-4aae-9c15-5967223f0a25",
             "levels": [
               {
                 "name": "Anno",
                 "ordinal": 0,
-                "column": "Anno",
-                "lineageTag": "24485e72-f14c-4885-9d13-9e8476f4e53f"
+                "column": "Anno"
               },
               {
                 "name": "Trimestre",
                 "ordinal": 1,
-                "column": "Trimestre",
-                "lineageTag": "a5e6a745-0900-4a18-bc42-a6f0ced794e3"
+                "column": "Trimestre"
               },
               {
                 "name": "Mese",
                 "ordinal": 2,
-                "column": "Mese",
-                "lineageTag": "ec7e3c26-0c80-49a2-9748-7e148d6db3c1"
+                "column": "Mese"
               },
               {
                 "name": "Giorno",
                 "ordinal": 3,
-                "column": "Giorno",
-                "lineageTag": "a747c5c7-d3d5-42e9-9db2-d6c3edbc92a6"
+                "column": "Giorno"
               }
             ],
             "annotations": [
@@ -1008,7 +940,6 @@
         "name": "LocalDateTable_5f463ee9-9e83-46a1-a874-c3f2357fae2d",
         "isHidden": true,
         "showAsVariationsOnly": true,
-        "lineageTag": "211544e2-63f4-4869-ba6d-7a85585d5c60",
         "columns": [
           {
             "type": "calculatedTableColumn",
@@ -1017,7 +948,6 @@
             "isNameInferred": true,
             "isHidden": true,
             "sourceColumn": "[Date]",
-            "lineageTag": "f9f44197-eea9-48bb-8e18-277813c0a597",
             "dataCategory": "PaddedDateTableDates",
             "summarizeBy": "none",
             "annotations": [
@@ -1033,7 +963,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "YEAR([Date])",
-            "lineageTag": "add576b6-c6a2-475d-9e1d-c5881e00ff67",
             "dataCategory": "Years",
             "summarizeBy": "none",
             "annotations": [
@@ -1053,7 +982,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "MONTH([Date])",
-            "lineageTag": "8bacd9cd-5552-46a2-9956-fbf0d10d4395",
             "dataCategory": "MonthOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -1074,7 +1002,6 @@
             "isHidden": true,
             "expression": "FORMAT([Date], \"MMMM\")",
             "sortByColumn": "NumMese",
-            "lineageTag": "5c253032-5c3d-4203-83ce-7ae83b5a5296",
             "dataCategory": "Months",
             "summarizeBy": "none",
             "annotations": [
@@ -1094,7 +1021,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "INT(([NumMese] + 2) / 3)",
-            "lineageTag": "d9e16589-be4b-48d5-8980-f53c990a0144",
             "dataCategory": "QuarterOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -1115,7 +1041,6 @@
             "isHidden": true,
             "expression": "\"Qtr \" & [NumTrimestre]",
             "sortByColumn": "NumTrimestre",
-            "lineageTag": "27efb5ac-0d73-4c99-a698-be08e9fea261",
             "dataCategory": "Quarters",
             "summarizeBy": "none",
             "annotations": [
@@ -1135,7 +1060,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "DAY([Date])",
-            "lineageTag": "8a58b014-e3e6-4422-bb22-8550c55ce01c",
             "dataCategory": "DayOfMonth",
             "summarizeBy": "none",
             "annotations": [
@@ -1163,31 +1087,26 @@
         "hierarchies": [
           {
             "name": "Gerarchia data",
-            "lineageTag": "72155f88-6c21-4ad9-862f-fefdee9a3bd3",
             "levels": [
               {
                 "name": "Anno",
                 "ordinal": 0,
-                "column": "Anno",
-                "lineageTag": "1493f537-70b4-4a95-9a5e-96bb791fcfa4"
+                "column": "Anno"
               },
               {
                 "name": "Trimestre",
                 "ordinal": 1,
-                "column": "Trimestre",
-                "lineageTag": "01f09aa7-0e24-4eac-95f6-f8ec7fd5569a"
+                "column": "Trimestre"
               },
               {
                 "name": "Mese",
                 "ordinal": 2,
-                "column": "Mese",
-                "lineageTag": "1b66439f-4721-494e-8b73-555f968adf6d"
+                "column": "Mese"
               },
               {
                 "name": "Giorno",
                 "ordinal": 3,
-                "column": "Giorno",
-                "lineageTag": "b0f88005-790d-4eea-bb09-e10774fa6e40"
+                "column": "Giorno"
               }
             ],
             "annotations": [
@@ -1209,7 +1128,6 @@
         "name": "LocalDateTable_ef80951f-2035-4adf-921c-6be6cef02011",
         "isHidden": true,
         "showAsVariationsOnly": true,
-        "lineageTag": "58dccf8a-e576-45da-bc35-47ba584be024",
         "columns": [
           {
             "type": "calculatedTableColumn",
@@ -1218,7 +1136,6 @@
             "isNameInferred": true,
             "isHidden": true,
             "sourceColumn": "[Date]",
-            "lineageTag": "79fb269d-cc05-43a2-b267-fc0c2f726799",
             "dataCategory": "PaddedDateTableDates",
             "summarizeBy": "none",
             "annotations": [
@@ -1234,7 +1151,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "YEAR([Date])",
-            "lineageTag": "949f5e3b-3e9b-4081-af60-d9a6968e7d6c",
             "dataCategory": "Years",
             "summarizeBy": "none",
             "annotations": [
@@ -1254,7 +1170,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "MONTH([Date])",
-            "lineageTag": "6864b987-6fbd-4bfd-8050-a83b0a94a938",
             "dataCategory": "MonthOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -1275,7 +1190,6 @@
             "isHidden": true,
             "expression": "FORMAT([Date], \"MMMM\")",
             "sortByColumn": "NumMese",
-            "lineageTag": "7f05bcae-27d5-4508-b9b4-1eaa8e1150af",
             "dataCategory": "Months",
             "summarizeBy": "none",
             "annotations": [
@@ -1295,7 +1209,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "INT(([NumMese] + 2) / 3)",
-            "lineageTag": "2ace2903-43ce-4c46-9dc7-f6b6c5144198",
             "dataCategory": "QuarterOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -1316,7 +1229,6 @@
             "isHidden": true,
             "expression": "\"Qtr \" & [NumTrimestre]",
             "sortByColumn": "NumTrimestre",
-            "lineageTag": "47114dbd-9fe6-4033-a9c8-72c9d47c9b9d",
             "dataCategory": "Quarters",
             "summarizeBy": "none",
             "annotations": [
@@ -1336,7 +1248,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "DAY([Date])",
-            "lineageTag": "2ffd0489-13ee-4fd5-a252-15dec0d4a834",
             "dataCategory": "DayOfMonth",
             "summarizeBy": "none",
             "annotations": [
@@ -1364,31 +1275,26 @@
         "hierarchies": [
           {
             "name": "Gerarchia data",
-            "lineageTag": "072ffc48-f877-4acf-9b5f-16e56c9e5c84",
             "levels": [
               {
                 "name": "Anno",
                 "ordinal": 0,
-                "column": "Anno",
-                "lineageTag": "073aa9eb-db61-446e-bc36-9e48be3b474b"
+                "column": "Anno"
               },
               {
                 "name": "Trimestre",
                 "ordinal": 1,
-                "column": "Trimestre",
-                "lineageTag": "1e7bf528-c1e7-41e6-9a50-9303d921a1a6"
+                "column": "Trimestre"
               },
               {
                 "name": "Mese",
                 "ordinal": 2,
-                "column": "Mese",
-                "lineageTag": "b8e8370c-e400-4af5-a2f8-db0e06118b0f"
+                "column": "Mese"
               },
               {
                 "name": "Giorno",
                 "ordinal": 3,
-                "column": "Giorno",
-                "lineageTag": "be2436d4-1ee7-46c5-a0bb-917e69181597"
+                "column": "Giorno"
               }
             ],
             "annotations": [
@@ -1410,7 +1316,6 @@
         "name": "LocalDateTable_b9243c96-6d6a-4762-97e4-e1fdf355f828",
         "isHidden": true,
         "showAsVariationsOnly": true,
-        "lineageTag": "8b77715f-df48-43a8-a7f1-2c779ac806ee",
         "columns": [
           {
             "type": "calculatedTableColumn",
@@ -1419,7 +1324,6 @@
             "isNameInferred": true,
             "isHidden": true,
             "sourceColumn": "[Date]",
-            "lineageTag": "8591450b-cedc-40bd-a7e7-696ae98968bb",
             "dataCategory": "PaddedDateTableDates",
             "summarizeBy": "none",
             "annotations": [
@@ -1435,7 +1339,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "YEAR([Date])",
-            "lineageTag": "fb301101-fd3d-4160-a7ef-f2751052c234",
             "dataCategory": "Years",
             "summarizeBy": "none",
             "annotations": [
@@ -1455,7 +1358,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "MONTH([Date])",
-            "lineageTag": "1d16946f-adf3-4f0b-bb4b-355219a58328",
             "dataCategory": "MonthOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -1476,7 +1378,6 @@
             "isHidden": true,
             "expression": "FORMAT([Date], \"MMMM\")",
             "sortByColumn": "NumMese",
-            "lineageTag": "056f315a-b348-4107-9edb-0c385b46eb77",
             "dataCategory": "Months",
             "summarizeBy": "none",
             "annotations": [
@@ -1496,7 +1397,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "INT(([NumMese] + 2) / 3)",
-            "lineageTag": "94523779-1593-448d-9119-b1ef7310c0d7",
             "dataCategory": "QuarterOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -1517,7 +1417,6 @@
             "isHidden": true,
             "expression": "\"Qtr \" & [NumTrimestre]",
             "sortByColumn": "NumTrimestre",
-            "lineageTag": "c8e1b1a8-02d4-4360-b025-73561a88ebc7",
             "dataCategory": "Quarters",
             "summarizeBy": "none",
             "annotations": [
@@ -1537,7 +1436,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "DAY([Date])",
-            "lineageTag": "45e7f34e-4e60-4f55-80ad-36be7241f44e",
             "dataCategory": "DayOfMonth",
             "summarizeBy": "none",
             "annotations": [
@@ -1565,31 +1463,26 @@
         "hierarchies": [
           {
             "name": "Gerarchia data",
-            "lineageTag": "e24838f5-8299-4123-9085-1409d6a95e2f",
             "levels": [
               {
                 "name": "Anno",
                 "ordinal": 0,
-                "column": "Anno",
-                "lineageTag": "d96a8384-b08c-471d-820f-97789545a30f"
+                "column": "Anno"
               },
               {
                 "name": "Trimestre",
                 "ordinal": 1,
-                "column": "Trimestre",
-                "lineageTag": "e69d554a-d0df-4fd6-9de9-4d3a9120e484"
+                "column": "Trimestre"
               },
               {
                 "name": "Mese",
                 "ordinal": 2,
-                "column": "Mese",
-                "lineageTag": "7c4c568e-92c4-4158-85af-2afd360cc97e"
+                "column": "Mese"
               },
               {
                 "name": "Giorno",
                 "ordinal": 3,
-                "column": "Giorno",
-                "lineageTag": "b92967ce-0f22-4cde-aa49-0111e1db73ce"
+                "column": "Giorno"
               }
             ],
             "annotations": [
@@ -1611,7 +1504,6 @@
         "name": "LocalDateTable_24902f4c-331c-4267-925a-3572b25dad05",
         "isHidden": true,
         "showAsVariationsOnly": true,
-        "lineageTag": "21fccf20-8833-4c0e-a1fb-dbb1026ef7c2",
         "columns": [
           {
             "type": "calculatedTableColumn",
@@ -1620,7 +1512,6 @@
             "isNameInferred": true,
             "isHidden": true,
             "sourceColumn": "[Date]",
-            "lineageTag": "b19be183-c836-4dba-a8c7-c855cc64d5ae",
             "dataCategory": "PaddedDateTableDates",
             "summarizeBy": "none",
             "annotations": [
@@ -1636,7 +1527,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "YEAR([Date])",
-            "lineageTag": "76d359ca-5215-45fa-a4bd-644fccc82728",
             "dataCategory": "Years",
             "summarizeBy": "none",
             "annotations": [
@@ -1656,7 +1546,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "MONTH([Date])",
-            "lineageTag": "c539e5b8-fe84-4708-965e-587a49675743",
             "dataCategory": "MonthOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -1677,7 +1566,6 @@
             "isHidden": true,
             "expression": "FORMAT([Date], \"MMMM\")",
             "sortByColumn": "NumMese",
-            "lineageTag": "fffcf5f3-37b6-4eec-83ff-1c611d926759",
             "dataCategory": "Months",
             "summarizeBy": "none",
             "annotations": [
@@ -1697,7 +1585,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "INT(([NumMese] + 2) / 3)",
-            "lineageTag": "32b578fa-094c-4ade-9aa1-f774ab6b3656",
             "dataCategory": "QuarterOfYear",
             "summarizeBy": "none",
             "annotations": [
@@ -1718,7 +1605,6 @@
             "isHidden": true,
             "expression": "\"Qtr \" & [NumTrimestre]",
             "sortByColumn": "NumTrimestre",
-            "lineageTag": "770e2c53-c71f-436f-a33b-12334b8ddd62",
             "dataCategory": "Quarters",
             "summarizeBy": "none",
             "annotations": [
@@ -1738,7 +1624,6 @@
             "dataType": "int64",
             "isHidden": true,
             "expression": "DAY([Date])",
-            "lineageTag": "a486e6da-2c0c-4587-84b8-9ab24f51b45a",
             "dataCategory": "DayOfMonth",
             "summarizeBy": "none",
             "annotations": [
@@ -1766,31 +1651,26 @@
         "hierarchies": [
           {
             "name": "Gerarchia data",
-            "lineageTag": "727ecebf-6485-4a1a-ab96-982faeaace79",
             "levels": [
               {
                 "name": "Anno",
                 "ordinal": 0,
-                "column": "Anno",
-                "lineageTag": "69add52a-baff-48c5-aa5b-1cf5c202513e"
+                "column": "Anno"
               },
               {
                 "name": "Trimestre",
                 "ordinal": 1,
-                "column": "Trimestre",
-                "lineageTag": "4ec789f6-9b2e-4884-8e30-64c712daaa5b"
+                "column": "Trimestre"
               },
               {
                 "name": "Mese",
                 "ordinal": 2,
-                "column": "Mese",
-                "lineageTag": "db09683e-59e7-464d-b62d-91e60288986d"
+                "column": "Mese"
               },
               {
                 "name": "Giorno",
                 "ordinal": 3,
-                "column": "Giorno",
-                "lineageTag": "a3f6b4e9-fc58-4bd0-b77f-b904039a95cf"
+                "column": "Giorno"
               }
             ],
             "annotations": [
