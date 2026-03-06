@@ -1,0 +1,6059 @@
+﻿cultureInfo it-IT
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "vw_dichiarazione_KM": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "vw dichiarazione KM": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "vw_DichiarazioneKM": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "vw_dichiarazione_KM.id_user": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "ID_USER"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id user": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID_USER": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "user": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "identification user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential user": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "id operator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id worker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id employer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id manipulator": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id handler": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "id manager": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.nome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "Nome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.cognome": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "Cognome"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cognome": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.email": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "Email"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "email": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "correspondence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "message": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.codice_SGA": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "CodiceSGA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "codice SGA": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "CodiceSGA": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.targa": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "TARGA"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "targa": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_inizio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "DATA_INIZIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data inizio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DATA_INIZIO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "information inizio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact inizio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info inizio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic inizio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document inizio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure inizio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record inizio": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_dichiarazione_KM.data_inizio.gerarchia_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INIZIO",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gerarchia data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gerarchia information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gerarchia figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gerarchia record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_inizio.anno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INIZIO",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Anno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data inizio anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information inizio anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact inizio anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info inizio anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic inizio anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document inizio anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure inizio anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record inizio anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_inizio.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INIZIO",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data inizio trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information inizio trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact inizio trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info inizio trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic inizio trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document inizio trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure inizio trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record inizio trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_inizio.mese": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INIZIO",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Mese"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data inizio mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information inizio mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact inizio mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info inizio mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic inizio mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document inizio mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure inizio mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record inizio mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_inizio.giorno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INIZIO",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Giorno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "giorno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data inizio giorno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information inizio giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact inizio giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info inizio giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic inizio giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document inizio giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure inizio giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record inizio giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_fine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "DATA_FINE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data fine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DATA_FINE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "fine": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "information fine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact fine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info fine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic fine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document fine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure fine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record fine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "well": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "okay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "good": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_dichiarazione_KM.data_fine.gerarchia_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_FINE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gerarchia data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gerarchia information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gerarchia figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gerarchia record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_fine.anno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_FINE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Anno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data fine anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information fine anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact fine anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info fine anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic fine anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document fine anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure fine anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record fine anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_fine.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_FINE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data fine trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information fine trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact fine trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info fine trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic fine trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document fine trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure fine trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record fine trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_fine.mese": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_FINE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Mese"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data fine mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information fine mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact fine mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info fine mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic fine mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document fine mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure fine mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record fine mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_fine.giorno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_FINE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Giorno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "giorno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data fine giorno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information fine giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact fine giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info fine giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic fine giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document fine giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure fine giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record fine giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.punto_inizio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "PUNTO_INIZIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "punto inizio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PUNTO_INIZIO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.punto_fine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "PUNTO_FINE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "punto fine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PUNTO_FINE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.km_inizio": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM_INIZIO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "km inizio": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KM_INIZIO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.km_fine": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM_FINE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "km fine": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KM_FINE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "fine": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "well": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "okay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "good": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "warm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "fair": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "clear": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.km_percorsi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM_PERCORSI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "km percorsi": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KM_PERCORSI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.km_scarto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM_SCARTO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "km scarto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KM_SCARTO": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.km_netti": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM_NETTI"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "km netti": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KM_NETTI": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.note": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "NOTE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "note": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "memo": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "memorandum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "reminder": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "letter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "message": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "communication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "annotation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "addendum": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "commentary": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "footnote": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.stato": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "STATO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "stato": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_insert": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "DATA_INSERT"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data insert": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DATA_INSERT": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "insert": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "information insert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact insert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info insert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic insert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document insert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure insert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record insert": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "data addition": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data enclosure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "data insertion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_dichiarazione_KM.data_insert.gerarchia_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INSERT",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gerarchia data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gerarchia information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gerarchia figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gerarchia record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_insert.anno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INSERT",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Anno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data insert anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information insert anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact insert anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info insert anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic insert anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document insert anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure insert anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record insert anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_insert.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INSERT",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data insert trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information insert trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact insert trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info insert trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic insert trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document insert trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure insert trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record insert trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_insert.mese": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INSERT",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Mese"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data insert mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information insert mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact insert mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info insert mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic insert mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document insert mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure insert mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record insert mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_insert.giorno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_INSERT",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Giorno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "giorno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data insert giorno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information insert giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact insert giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info insert giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic insert giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document insert giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure insert giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record insert giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_update": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "DATA_UPDATE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "data update": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "DATA_UPDATE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "update": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "information update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "fact update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "info update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "statistic update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "document update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "figure update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "record update": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_dichiarazione_KM.data_update.gerarchia_data": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_UPDATE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gerarchia data": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "gerarchia information": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia statistic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "gerarchia document": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gerarchia figure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gerarchia record": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_update.anno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_UPDATE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Anno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data update anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information update anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact update anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info update anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic update anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document update anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure update anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record update anno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_update.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_UPDATE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data update trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information update trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact update trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info update trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic update trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document update trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure update trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record update trimestre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_update.mese": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_UPDATE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Mese"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data update mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information update mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact update mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info update mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic update mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document update mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure update mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record update mese": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.data_update.giorno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "VariationSource": "DATA_UPDATE",
+			          "VariationSet": "Variazione",
+			          "Hierarchy": "Gerarchia data",
+			          "HierarchyLevel": "Giorno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "giorno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "data update giorno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "information update giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "fact update giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "info update giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "statistic update giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "document update giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "figure update giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "record update giorno": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.anno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "ANNO"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "anno": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.mese": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "MESE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mese": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.nome_mese": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "NOME_MESE"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome mese": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NOME_MESE": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.nome_completo": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "NomeCompleto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nome completo": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "NomeCompleto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.mese_anno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "MeseAnno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "mese anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "MeseAnno": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.sort_mese_anno": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "SortMeseAnno"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "sort mese anno": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "SortMeseAnno": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.KM_totali": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM Totali"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KM totali": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.KM_non_rendicontati": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM Non Rendicontati"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KM non rendicontati": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "KM Scarto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.n_errori_contachilometri": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "N° Errori Contachilometri"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "n° errori contachilometri": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.tratte_aperte": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "Tratte Aperte"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "tratte aperte": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.KM_medi_per_tratta": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM Medi per Tratta"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KM medi per tratta": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.KM_totali_matrice": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM Totali Matrice"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KM totali matrice": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.n_tratte_matrice": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "N° Tratte Matrice"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "n° tratte matrice": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "N° Tratte": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.n_utenti_attivi": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "N° Utenti Attivi"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "n° utenti attivi": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.scarto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "% Scarto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "% scarto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "percentage scarto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "pct scarto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM.ultima_dichiarazione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "Ultima Dichiarazione"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ultima dichiarazione": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "vw_dichiarazione_KM.KM_netti_totali": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "vw_DichiarazioneKM",
+			          "ConceptualProperty": "KM Netti Totali"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "KM netti totali": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "vw_dichiarazione_KM_data_update_trimestre_has_vw_dichiarazione_KM_data_update_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_update.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.trimestre"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_update.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_meses"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.mese"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.mese"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_are_in_trimestres3"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_update_anno_has_vw_dichiarazione_KM_data_update_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_update.anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.anno"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_update.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.anno"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anno_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anno"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anno3"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_update_gerarchia_data_has_vw_dichiarazione_KM_data_update_giorno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_update.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_update.giorno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.giorno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.giorno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_giornos"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_update_gerarchia_data_has_vw_dichiarazione_KM_data_update_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_update.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_update.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_meses"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_update_gerarchia_data_has_vw_dichiarazione_KM_data_update_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_update.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_update.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_trimestres"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_update_gerarchia_data_has_vw_dichiarazione_KM_data_update_anno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_update.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_update.anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.anno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_anno"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_update_has_gerarchia_data": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_update": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_update.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.gerarchia_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_updates_have_gerarchia_data"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_insert_mese_has_vw_dichiarazione_KM_data_insert_giorno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_insert.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.mese"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_insert.giorno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.giorno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.mese"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.giorno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_have_giornos"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.giorno"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "giornos_have_meses"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.giorno"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "giornos_are_in_meses2"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_insert_trimestre_has_vw_dichiarazione_KM_data_insert_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_insert.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.trimestre"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_insert.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_meses1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.mese"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_have_trimestres1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.mese"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_are_in_trimestres2"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_insert_anno_has_vw_dichiarazione_KM_data_insert_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_insert.anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.anno"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_insert.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.anno"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anno_have_trimestres1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anno1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anno2"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_insert_gerarchia_data_has_vw_dichiarazione_KM_data_insert_giorno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_insert.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_insert.giorno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.giorno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.giorno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_giornos1"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_insert_gerarchia_data_has_vw_dichiarazione_KM_data_insert_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_insert.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_insert.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_meses1"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_insert_gerarchia_data_has_vw_dichiarazione_KM_data_insert_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_insert.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_insert.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_trimestres1"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_insert_gerarchia_data_has_vw_dichiarazione_KM_data_insert_anno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_insert.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_insert.anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.anno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_anno1"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_insert_has_gerarchia_data": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_insert": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_insert.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_insert"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert.gerarchia_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_inserts_have_gerarchia_data"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_fine_mese_has_vw_dichiarazione_KM_data_fine_giorno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_fine.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.mese"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_fine.giorno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.giorno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.mese"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.giorno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_have_giornos1"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.giorno"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "giornos_have_meses1"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.giorno"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "giornos_are_in_meses1"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_fine_trimestre_has_vw_dichiarazione_KM_data_fine_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_fine.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.trimestre"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_fine.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_meses2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.mese"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_have_trimestres2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.mese"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_are_in_trimestres1"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_fine_anno_has_vw_dichiarazione_KM_data_fine_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_fine.anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.anno"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_fine.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.anno"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anno_have_trimestres2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anno2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anno1"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_fine_gerarchia_data_has_vw_dichiarazione_KM_data_fine_giorno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_fine.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_fine.giorno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.giorno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.giorno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_giornos2"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_fine_gerarchia_data_has_vw_dichiarazione_KM_data_fine_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_fine.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_fine.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_meses2"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_fine_gerarchia_data_has_vw_dichiarazione_KM_data_fine_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_fine.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_fine.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_trimestres2"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_fine_gerarchia_data_has_vw_dichiarazione_KM_data_fine_anno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_fine.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_fine.anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.anno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_anno2"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_fine_has_gerarchia_data": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_fine": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_fine.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_fine"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine.gerarchia_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_fines_have_gerarchia_data"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_inizio_mese_has_vw_dichiarazione_KM_data_inizio_giorno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_inizio.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.mese"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_inizio.giorno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.giorno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.mese"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.giorno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_have_giornos2"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.giorno"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "giornos_have_meses2"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.giorno"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "giornos_are_in_meses"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_inizio_trimestre_has_vw_dichiarazione_KM_data_inizio_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_inizio.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.trimestre"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_inizio.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_meses3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.mese"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_have_trimestres3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.mese"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_inizio_anno_has_vw_dichiarazione_KM_data_inizio_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_inizio.anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.anno"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_inizio.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.anno"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "anno_have_trimestres3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.trimestre"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_anno3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_anno"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_inizio_gerarchia_data_has_vw_dichiarazione_KM_data_inizio_giorno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_inizio.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_inizio.giorno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.giorno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.giorno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_giornos3"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_inizio_gerarchia_data_has_vw_dichiarazione_KM_data_inizio_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_inizio.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_inizio.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_meses3"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_inizio_gerarchia_data_has_vw_dichiarazione_KM_data_inizio_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_inizio.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_inizio.trimestre": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_trimestres3"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_inizio_gerarchia_data_has_vw_dichiarazione_KM_data_inizio_anno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_inizio.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_inizio.anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.anno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "gerarchia_data_have_anno3"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_inizio_has_gerarchia_data": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_inizio": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_inizio.gerarchia_data": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_inizio"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio.gerarchia_data"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "data_inizios_have_gerarchia_data"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_KM_netti_totali": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.KM_netti_totali": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.KM_netti_totali"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.KM_netti_totali"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_KM_netti_totali"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_ultima_dichiarazione": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.ultima_dichiarazione": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.ultima_dichiarazione"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.ultima_dichiarazione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_ultima_dichiarazione"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_scarto": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.scarto": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.scarto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.scarto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have__scarto"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_n_utenti_attivi": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.n_utenti_attivi": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.n_utenti_attivi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.n_utenti_attivi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_n_utenti_attivi"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_n_tratte_matrice": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.n_tratte_matrice": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.n_tratte_matrice"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.n_tratte_matrice"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_n_tratte_matrice"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_KM_totali_matrice": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.KM_totali_matrice": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.KM_totali_matrice"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.KM_totali_matrice"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_KM_totali_matrice"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_KM_medi_per_tratta": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.KM_medi_per_tratta": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.KM_medi_per_tratta"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.KM_medi_per_tratta"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_KM_medi_per_tratta"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_tratte_aperte": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.tratte_aperte": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.tratte_aperte"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.tratte_aperte"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_tratte_aperte"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_n_errori_contachilometri": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.n_errori_contachilometri": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.n_errori_contachilometri"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.n_errori_contachilometri"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_n_errori_contachilometri"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_KM_non_rendicontati": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.KM_non_rendicontati": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.KM_non_rendicontati"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.KM_non_rendicontati"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_KM_non_rendicontati"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_KM_totali": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.KM_totali": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.KM_totali"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.KM_totali"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_KM_totali"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_sort_mese_anno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.sort_mese_anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.sort_mese_anno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.sort_mese_anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_sort_mese_anno"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_mese_anno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.mese_anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.mese_anno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.mese_anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_mese_anno"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_nome_completo": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.nome_completo": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.nome_completo"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.nome_completo"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_nome_completos"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_nome_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.nome_mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.nome_mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.nome_mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_nome_meses"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_mese": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.mese"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_meses"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_anno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.anno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.anno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.anno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_anno"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_data_update": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_update": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_data_updates"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_data_insert": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_insert": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_insert"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_insert"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_data_inserts"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_stato": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.stato": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.stato"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.stato"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_statos"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_note": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.note": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.note"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.note"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_notes"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_km_netti": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.km_netti": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.km_netti"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.km_netti"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_km_nettis"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_km_scarto": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.km_scarto": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.km_scarto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.km_scarto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_km_scartos"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_km_percorsi": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.km_percorsi": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.km_percorsi"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.km_percorsi"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_km_percorsis"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_km_fine": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.km_fine": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.km_fine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.km_fine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_km_fines"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_km_inizio": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.km_inizio": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.km_inizio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.km_inizio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_km_inizios"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_punto_fine": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.punto_fine": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.punto_fine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.punto_fine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_punto_fines"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_punto_inizio": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.punto_inizio": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.punto_inizio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.punto_inizio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_punto_inizios"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_data_fine": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_fine": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_fine"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_fine"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_data_fines"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_data_inizio": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_inizio": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_inizio"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_inizio"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_data_inizios"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_targa": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.targa": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.targa"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.targa"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_targa"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_codice_SGA": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.codice_SGA": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.codice_SGA"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.codice_SGA"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_codice_SGAs"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_email": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.email": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.email"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.email"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_emails"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_cognome": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.cognome": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.cognome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.cognome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_cognomes"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_nome": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.nome": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.nome"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.nome"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_nome"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_id_user": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.id_user": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.id_user"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.id_user"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_id_users"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_has_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM"
+			          }
+			        },
+			        "vw_dichiarazione_KM.ID": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "vw_dichiarazione_KM_have_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM"
+			            },
+			            "Name": {
+			              "Role": "vw_dichiarazione_KM.ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "ID_are_names_IDs_of_vw_dichiarazione_KM"
+			        }
+			      ]
+			    },
+			    "vw_dichiarazione_KM_data_update_mese_has_vw_dichiarazione_KM_data_update_giorno": {
+			      "Binding": {
+			        "ConceptualEntity": "vw_DichiarazioneKM"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "vw_dichiarazione_KM.data_update.mese": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.mese"
+			          }
+			        },
+			        "vw_dichiarazione_KM.data_update.giorno": {
+			          "Target": {
+			            "Entity": "vw_dichiarazione_KM.data_update.giorno"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.mese"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.giorno"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "meses_have_giornos3"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.giorno"
+			            },
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "giornos_have_meses3"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "vw_dichiarazione_KM.data_update.giorno"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "vw_dichiarazione_KM.data_update.mese"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "giornos_are_in_meses3"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

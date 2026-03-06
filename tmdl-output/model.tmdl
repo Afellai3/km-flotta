@@ -1,0 +1,25 @@
+﻿model Model
+	culture: it-IT
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: it-IT
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["vw_DichiarazioneKM"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation __TEdtr = 1
+
+annotation TabularEditor_SerializeOptions = {"IgnoreInferredObjects":true,"IgnoreInferredProperties":true,"IgnoreTimestamps":true,"SplitMultilineStrings":true,"PrefixFilenames":false,"LocalTranslations":false,"LocalPerspectives":false,"SortArrays":false,"LocalRelationships":false,"Levels":["Data Sources","Shared Expressions","Perspectives","Relationships","Roles","Tables","Tables/Columns","Tables/Hierarchies","Tables/Measures","Tables/Partitions","Tables/Calculation Items","Translations"]}
+
+ref table vw_DichiarazioneKM
+ref table DateTableTemplate_f6803ed1-3acd-4226-be7a-730b32590751
+ref table LocalDateTable_5f463ee9-9e83-46a1-a874-c3f2357fae2d
+ref table LocalDateTable_ef80951f-2035-4adf-921c-6be6cef02011
+ref table LocalDateTable_b9243c96-6d6a-4762-97e4-e1fdf355f828
+ref table LocalDateTable_24902f4c-331c-4267-925a-3572b25dad05
+
+ref cultureInfo it-IT
+

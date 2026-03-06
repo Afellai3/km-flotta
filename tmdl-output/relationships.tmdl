@@ -1,0 +1,20 @@
+﻿relationship 2b094b0f-d47a-4ff0-8ad5-4bfc6044e897
+	joinOnDateBehavior: datePartOnly
+	fromColumn: vw_DichiarazioneKM.DATA_INIZIO
+	toColumn: LocalDateTable_5f463ee9-9e83-46a1-a874-c3f2357fae2d.Date
+
+relationship aef4b689-9448-4306-91cf-f349f4a1656a
+	joinOnDateBehavior: datePartOnly
+	fromColumn: vw_DichiarazioneKM.DATA_FINE
+	toColumn: LocalDateTable_ef80951f-2035-4adf-921c-6be6cef02011.Date
+
+relationship e8e8a6f9-05b1-42ca-9635-6c08d85f7034
+	joinOnDateBehavior: datePartOnly
+	fromColumn: vw_DichiarazioneKM.DATA_INSERT
+	toColumn: LocalDateTable_b9243c96-6d6a-4762-97e4-e1fdf355f828.Date
+
+relationship 3c133064-64d2-4897-971f-09555e5a01ee
+	joinOnDateBehavior: datePartOnly
+	fromColumn: vw_DichiarazioneKM.DATA_UPDATE
+	toColumn: LocalDateTable_24902f4c-331c-4267-925a-3572b25dad05.Date
+
